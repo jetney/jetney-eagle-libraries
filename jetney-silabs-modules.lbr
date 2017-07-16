@@ -143,20 +143,22 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;BLE112-A, BLE112-E&lt;/td&gt;&lt;td&gt;BGM111-A&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;BLE113-A&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;BLE121LR-A&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;BLE113-A&lt;/td&gt;&lt;td&gt;BGM113-A&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;BLE121LR-A&lt;/td&gt;&lt;td&gt;BGM12x-A (BGM121-A/BGM123-A)&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;BT111-A&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;WT11i-A, WT11i-E&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;BT121-A&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;WT11u-A, WT11u-E&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;WT12-A&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;WT21-A, WT21-N&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;WT32-A, WT32-E&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;WT41-A, WT41-E, WT41-N&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;WT32i-A, WT32i-E&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;WT41u-A, WT41u-E, WT41u-N&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;WF111-A, WF111-E&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;WF121-A, WF121-E&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;All &lt;strong&gt;-A&lt;/strong&gt; variants have built-in chip antennas. All &lt;strong&gt;-N&lt;/strong&gt; variants have RF pins for feeding an external antenna through the PCB. All &lt;strong&gt;-E&lt;/strong&gt; variants include a small antenna connector (U.Fl or W.Fl) on the top face of the module.&lt;/p&gt;
+&lt;p&gt;In addition, the library includes 0.05" (1.27mm) pitch 2x5 header devices for debug connections.&lt;/p&gt;
+
+&lt;p&gt;All &lt;strong&gt;-A&lt;/strong&gt; module variants have built-in chip antennas. All &lt;strong&gt;-N&lt;/strong&gt; module variants have RF pins for feeding an external antenna through the PCB. All &lt;strong&gt;-E&lt;/strong&gt; variants include a small antenna connector (U.Fl or W.Fl) on the top face of the module.&lt;/p&gt;
 
 &lt;p&gt;In addition, each module includes a logical pin layout symbol as well as a visual pin layout symbol. The corresponding packages are the same, but depending on your needs or preferences, you may prefer one over the other. For example, using a visual pin layout symbol makes the creation of breakout boards incredibly simple. Visual symbols are denoted by a &lt;strong&gt;-VISUAL&lt;/strong&gt; suffix on the part name.&lt;/p&gt;
 
@@ -167,7 +169,7 @@ Latest version maintained at &lt;a href="https://github.com/jetney/jetney-eagle-
 
 &lt;p&gt;This library is placed under the open-source MIT license and may be freely used for any purpose. Attribution in design source files or documentation is appreciated, but not required.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Last updated 2016-11-21&lt;/em&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;em&gt;Last updated 2017-07-16&lt;/em&gt;&lt;/p&gt;</description>
 <packages>
 <package name="WT12-A-SHORTRF">
 <description>&lt;p&gt;Bluegiga WT12 class 2 Bluetooth 2.1 + EDR module. WT12-A variant has an on-module ceramic chip antenna.&lt;/p&gt;
